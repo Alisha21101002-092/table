@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>TABLE</title>
+</head>
+<style type="text/css">
+	.mydiv {
+		width: 150px;
+		height: 30px;
+		background: orange;
+		border-radius: 10px;
+		text-align: center;
+
+	}
+
+	.mydiv1 {
+		width: 150px;
+		height: 30px;
+		background: green;
+		border-radius: 10px;
+		text-align: center;
+
+	}
+
+	.mydiv2 {
+		width: 150px;
+		height: 30px;
+		background: blue;
+		border-radius: 10px;
+		text-align: center;
+
+	}
+
+	.mydiv3 {
+		width: 150px;
+		height: 30px;
+		background: blue;
+		border-radius: 10px;
+		text-align: center;
+	}
+
+	.mydiv4 {
+		width: 150px;
+		height: 30px;
+		background: green;
+		border-radius: 10px;
+		text-align: center;
+
+	}
+
+	table tr:nth-child(odd) {
+		background: lightgrey;
+
+
+
+	}
+
+	th {
+		background-color: white;
+		box-shadow: 4px 4px 4px lightgray;
+	}
+
+	table tbody {
+		box-shadow: 4px 4px 4px lightgray
+	}
+</style>
+
+<body>
+	<table border-collapes="collapes" align="center" cellpadding="12px" cellspacing="0.5px">
+		<tr>
+			<th>INVOICE</th>
+			<th>NAME</th>
+			<th>DATE</th>
+			<th>PAYMENT STATUS </th>
+			<th>AMOUNT</th>
+			<th>ACTION</th>
+
+		</tr>
+
+		<tr>
+			<td style="color: blue;">NA</td>
+			<td>Pratham</td>
+			<td>01/04/2022</td>
+			<td bgcolor="white">
+				<div class="mydiv">Not Completed
+			</td>
+			<td>22,000</td>
+			<td>
+				<button bgcolor="light">
+					<img src="pencil.png" width="25px" height="25px">
+				</button>
+				<button bgcolor="lightblue">
+					<img src="delete.png" width="25px" height="25px">
+				</button>
+			</td>
+
+		</tr>
+		<tr>
+			<td style="color: blue;">INV_1</td>
+			<td>Doe</td>
+			<td>01/04/2022</td>
+			<td bgcolor="lightgrey">
+				<div class="mydiv1">Completed
+			</td>
+			<td>23,000</td>
+			<td>
+				<button bgcolor="light">
+					<img src="pencil.png" width="25px" height="25px">
+				</button>
+				<button bgcolor="lightblue">
+					<img src="delete.png" width="25px" height="25px">
+				</button>
+			</td>
+
+		</tr>
+		<tr>
+			<td style="color: blue;">INV_2</td>
+			<td>Cristian</td>
+			<td>01/04/2022</td>
+			<td bgcolor="white">
+				<div class="mydiv2">Processing
+			</td>
+			<td>28,000</td>
+			<td>
+				<button bgcolor="lightblue">
+					<img src="pencil.png" width="25px" height="25px">
+				</button>
+				<button bgcolor="lightblue">
+					<img src="delete.png" width="25px" height="25px">
+				</button>
+			</td>
+
+		</tr>
+		<tr>
+			<td style="color: blue;">INV_3</td>
+			<td>Kiran</td>
+			<td>01/04/2022</td>
+			<td bgcolor="lightgrey">
+				<div class="mydiv3">Processing
+			</td>
+			<td>25,000</td>
+			<td>
+
+				<button bgcolor="lightblue" width="25px" height="25px">
+					<img src="pencil.png" width="25px" height="25px">
+				</button>
+				<button bgcolor="lightblue">
+					<img src="delete.png" width="25px" height="25px">
+				</button>
+
+			</td>
+
+		</tr>
+		<tr>
+			<td style="color: blue;">INV_4</td>
+			<td>Kite</td>
+			<td>01/04/2022</td>
+			<td bgcolor="white">
+				<div class="mydiv4">Completed
+			</td>
+			<td>22,000</td>
+			<td>
+				<button bgcolor="lightblue">
+					<img src="pencil.png" width="25px" height="25px">
+				</button>
+				<button bgcolor="lightblue">
+					<img src="delete.png" width="25px" height="25px">
+				</button>
+
+			</td>
+
+
+
+		</tr>
+	</table>
+</body>
+
+</html>
